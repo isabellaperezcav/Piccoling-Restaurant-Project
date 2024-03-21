@@ -1,5 +1,6 @@
 # Piccoling-Restaurant-Project
-The Piccoling Restaurant project consists of the creation of a web application with a layered architecture, using 3 microservices mounted on an ubuntu server with an ip 192.168.100.2.
+The Piccoling Restaurant project consists of the creation of a web application with a layered architecture, using 3 microservices mounted on an ubuntu server with an ip 192.168.100.4.
+
 The 3 microservices are:
 1. Users: manages the HTTP methods for the creation of users, using the table "usuarios" created in mysql.
 2. Inventory: it administers the HTTP methods for the creation of ingredients and menus that so many available quantities there are of them and allows that when menu is reduced, also it does inventory and also allows that when increasing an ingredient the quantity in menu increases, for it uses the tables "menu", "inventario" and "preparacion" (it allows the relation many to many for the communication between menu and ingredients) created in mysql.
