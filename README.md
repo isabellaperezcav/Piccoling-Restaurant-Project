@@ -12,4 +12,4 @@ Each microservice has a src where are the codes managed in layers, before starti
 in this case, the mysql tables and apis are in the server with ip 192.168.100.4, while the web application "webPiccoling" will be in XAMPP, specifically in the htdocs folder inside xampp, this because the application will use apache
 
 
-For more information or to use this project and/or its codes, please contact 
+For more information or to use this project and/or its codes, please contact isabellaperezcav@gmail.com
